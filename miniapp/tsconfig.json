@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "allowJs": true,
+    "outDir": "lib",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "sourceMap": true,
+    "rootDir": ".",
+    "jsx": "react-jsx",
+    "jsxImportSource": "@tarojs/react",
+    "resolveJsonModule": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["src/**/*", "config/**/*"],
+  "compileOnSave": false
+}
